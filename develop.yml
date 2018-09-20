@@ -1,0 +1,10 @@
+# tmuxinator uses 2 spaces for indenting!
+name: develop
+root: ~/git
+windows:
+  - VIM:
+      layout: main-horizontal
+      panes:
+        - vim
+        - clear #empty, will just run plain terminal
+  - terminal: clear #empty
